@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+		<Title>HDBSCAN implementation</Title>
+		<Description></Description>
+		<AssemblyTitle>HdbscanSharp</AssemblyTitle>
+		<VersionPrefix>2.0.0</VersionPrefix>
+		<AssemblyName>HdbscanSharp</AssemblyName>
+		<TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+		<PackageId>HDBSCAN_LIB</PackageId>
+		<Authors>HDBSCAN_LIB</Authors>
+		<PackageTags></PackageTags>
+		<PackageProjectUrl></PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/doxakis/HdbscanSharp/blob/master/LICENSE</PackageLicenseUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl></RepositoryUrl>
+		<SignAssembly>false</SignAssembly>
+		<DelaySign>false</DelaySign>
+		<AssemblyOriginatorKeyFile>HDBSCAN_LIB.pfx</AssemblyOriginatorKeyFile>
+		<LangVersion>latest</LangVersion>
+		<Version>0</Version>
+		<Company>HDBSCAN_LIB</Company>
+		<Product>HDBSCAN_LIB</Product>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+</Project>
